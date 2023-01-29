@@ -16,3 +16,4 @@ int main() {
     }
     cout << n << " ";
 }
+// cses/1_intro/weird_algorithm.cpp
