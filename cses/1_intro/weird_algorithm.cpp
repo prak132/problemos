@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int n;
+    long long n;
     cin >> n;
     while (n != 1) {
         cout << n << " ";
@@ -11,8 +11,8 @@ int main() {
             n /= 2;
         }
         else {
-            n = 3*n+1;
+            n = n * 3 + 1;
         }
     }
-    cout << n << "\n";
+    cout << n << " ";
 }
