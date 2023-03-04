@@ -1,0 +1,14 @@
+{
+    "name": "Teehee",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "An extension to display sus pics.",
+    "icons": {
+        "16": "icons/8ball.png",
+        "32": "icons/cosmic.png",
+        "48": "icons/cosmicAYO.png"
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+}

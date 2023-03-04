@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
-#include <iostream>
+#define pb push_back
+#define int long long
+
 using namespace std;
 int a,b;
 
@@ -7,14 +9,10 @@ void solve() {
     cin >> a >> b;
     cout << a+b << endl;
 }
-
-int main() {
+signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     int t; cin >> t;
-    while(t--) {
-        solve();
-    }
-
+    while(t--) {solve();}
     return 0;
 }
