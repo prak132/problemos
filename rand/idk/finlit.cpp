@@ -1,14 +1,16 @@
 #include <bits/stdc++.h>
 #define pb push_back
 #define endl "\n"
-#define int long long
 
 using namespace std;
-int a,b;
-
+double P,d,r,n,ans;
+//wanted to finish my hw faster
 void solve() {
-    cin >> a >> b;
-    cout << a+b << endl;
+    cin >> P >> d >> r >> n;
+    P -= d;
+    double monthlyRate = r / 12.0;
+    double ans = (P * monthlyRate) / (1 - pow(1 + monthlyRate, -n));
+    cout << ans << endl;
 }
 signed main() {
     ios_base::sync_with_stdio(false);
@@ -17,5 +19,3 @@ signed main() {
     while(t--) {solve();}
     return 0;
 }
-//-std=c++17
-//-std=c++11

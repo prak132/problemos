@@ -8,7 +8,7 @@ int a,b;
 
 void solve() {
     cin >> a >> b;
-    cout << a+b << endl;
+    cout << a*b << endl;
 }
 signed main() {
     ios_base::sync_with_stdio(false);
@@ -17,5 +17,3 @@ signed main() {
     while(t--) {solve();}
     return 0;
 }
-//-std=c++17
-//-std=c++11

@@ -12,6 +12,6 @@ int main() {
         ans = a+b;
         a=b;
         b=ans;
-    }
+    }//guess wgat fib this is
     cout << total << endl;
 }

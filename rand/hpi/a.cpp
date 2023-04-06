@@ -1,3 +1,4 @@
+//https://docs.google.com/document/d/1OeRo8YDWKESlJW4fv9lyrzxjtgBDOIuU6WrCkozNYeg/edit
 #include <bits/stdc++.h>
 #define pb push_back
 #define endl "\n"
@@ -6,16 +7,10 @@
 using namespace std;
 int a,b;
 
-void solve() {
-    cin >> a >> b;
-    cout << a+b << endl;
-}
 signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t; cin >> t;
-    while(t--) {solve();}
+    cin >> a >> b;
+    cout << a*b << endl;
     return 0;
 }
-//-std=c++17
-//-std=c++11

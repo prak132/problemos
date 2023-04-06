@@ -1,21 +1,22 @@
 #include <bits/stdc++.h>
-#define pb push_back
 #define endl "\n"
 #define int long long
 
 using namespace std;
-int a,b;
+int n,k;
 
 void solve() {
-    cin >> a >> b;
-    cout << a+b << endl;
+    cin >> n >> k;
+    if (k <= (n + 1) / 2) {
+        cout << (k*2-1) << endl;
+    }
+    else {
+        cout << ((k-(n+1)/2)*2) << endl;
+    }
 }
 signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t; cin >> t;
-    while(t--) {solve();}
+    solve();
     return 0;
 }
-//-std=c++17
-//-std=c++11
