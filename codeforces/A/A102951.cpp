@@ -7,6 +7,7 @@ using namespace std;
 int n;
 
 signed main() {
+	ios_base::sync_with_stdio(false);cin.tie(nullptr);
 	cin >> n;
 	vector<int> x(n), y(n);
 	for (int &t : x) { cin >> t; }

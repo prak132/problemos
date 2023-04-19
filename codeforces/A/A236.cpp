@@ -7,6 +7,7 @@ string str;
 int z;
 
 int main() {
+    ios_base::sync_with_stdio(false);cin.tie(nullptr);
     cin >> str;
     set<char>len;
     for(int i = 0;i<str.size();i++){

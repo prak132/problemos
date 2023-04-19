@@ -6,6 +6,7 @@
 using namespace std;
 
 signed main() {
+    ios_base::sync_with_stdio(false);cin.tie(nullptr);
     string str;
     cin >> str;
     str[0] = towupper(str[0]);
