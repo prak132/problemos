@@ -8,7 +8,7 @@ int main() {
      while(1){
         y++;
         auto s = to_string(y);
-        if(s[0]!=s[1] && s[0]!=s[2] && s[0]!=s[3] && s[1]!=s[2] && s[1]!=s[3] && s[2]!=s[3])
+        if(s[0]!=s[1] && s[0]!=s[2] && s[0]!=s[3] && s[1]!=s[2] && s[1]!=s[3] && s[2]!=s[3]) {
             break;
         }
      cout<< y << endl;
