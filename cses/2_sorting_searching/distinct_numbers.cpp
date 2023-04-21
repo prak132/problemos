@@ -3,17 +3,19 @@ using namespace std;
  
 int main() {
 	ios::sync_with_stdio(false);cin.tie(nullptr);
-    string s; char current;
-    int count = 0, ans = 0; cin >> s;
-    for (int i = 0; i < s.length(); i++) {
-        if (s[i] != current) {
-            current = s[i];
-            count = 0;
-        }   
-        if (s[i] == current) {
-            count++;
-        }
-        ans = max(ans, count);
+    int n; cin >> n;
+    int ar[n];
+    for (int i=0; i < n; i++) {
+        cin >> ar[i];
     }
-    cout << ans;
+    sort(ar, ar + n);
+    int current = 0,ans=0;
+    for (int j=0; j < n; j++) {
+        if (ar[j] != current) {
+            ans++;
+            current = ar[j];
+        }
+    }
+    cout << ans << endl;
+    return 0;
 }

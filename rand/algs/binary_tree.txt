@@ -1,0 +1,4 @@
+* if a node is at index i,
+* it's left child will be at 2*i,
+* and it's right child will be at 2*i+1,
+* and it's parent will be at floor of i/2

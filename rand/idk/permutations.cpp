@@ -17,7 +17,7 @@ int main() {
     do {
         print(a, n);
     } while(next_permutation(a.begin(), a.end()));
-
     return 0;
+
 }
 //clang++ rand/idk/permutations.cpp -std=c++11
