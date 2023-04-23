@@ -3,7 +3,7 @@
 class Solution {
 public:
     int firstBadVersion(int n) {
-        int l=1,h=n;//binary search yay, bounds are 1-n
+        int l=1,h=n;//binary search yay
         while(l<=h){
             int mid=l+(h-l)/2;
             if(isBadVersion(mid)){

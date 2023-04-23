@@ -12,7 +12,7 @@ public:
 			else if(i%5==0) {
                 ans.push_back("Buzz");
             }
-			else {//this was dum idk how to do this until GEEKSFORGEEKS
+			else {
 				string x="";
 				int z=i;
 				while(z){
