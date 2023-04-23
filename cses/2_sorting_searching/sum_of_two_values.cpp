@@ -15,6 +15,5 @@ int main() {
 		}
 		m[ar[i]] = i + 1;
 	}
-
 	cout << "IMPOSSIBLE" << endl;
 }
