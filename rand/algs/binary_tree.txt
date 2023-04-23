@@ -2,3 +2,6 @@
 * it's left child will be at 2*i,
 * and it's right child will be at 2*i+1,
 * and it's parent will be at floor of i/2
+
+* Priority queue, smaller the number, higher the Priority or larger the number, higher the Priority
+* The value is the priority
