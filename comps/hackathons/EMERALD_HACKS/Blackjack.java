@@ -1,4 +1,4 @@
-package rand.hackathons.EMERALD_HACKS;
+package comps.hackathons.EMERALD_HACKS;
 import java.util.Scanner;
 import java.util.*;
  
