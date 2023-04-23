@@ -8,6 +8,6 @@ signed main() {
     cout << N << "\n";
     return 0;
 }
-//old comp is my comp yes
+//I use g++ prob should use clang cuz not outdated lol
 //-std=c++17
 //-std=c++11
