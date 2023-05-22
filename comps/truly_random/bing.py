@@ -14,7 +14,7 @@ keep_running = True
 def bing():
         for x in range(40):
             res = ''.join(random.choices(string.ascii_uppercase + string.digits, k=1))
-            mouse.position = (470, 175)
+            mouse.position = (470, 175) #set to friend place
             print(f'moved it to {mouse.position} successfully')
             mouse.press(Button.left)
             mouse.release(Button.left)

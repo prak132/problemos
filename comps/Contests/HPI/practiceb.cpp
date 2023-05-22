@@ -13,7 +13,7 @@ int main() {
     int t; cin >> t;
     while(t--) {cin >> a;v.pb(a);}
     sort(v.begin(), v.end());
-    //for (auto x : v){cout << x << " ";}
+    for (auto x : v){cout << x << " ";}
     v.pop_back();v.erase(v.begin());b = v.size()-1;a = v[b]-v[0];cout << a << endl;
     return 0;
 } 
