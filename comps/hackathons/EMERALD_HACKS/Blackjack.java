@@ -6,15 +6,8 @@ public class Blackjack {
    public static void main(String[] args) {
         String anotherCard, redo = "y", ctn = null;
         //initalizing the variables to be used
-        int next;
-        int c1;
-        int c2;
-        int dX;
-        int dY;
-        int pTotal = 0;
-        int dTotal = 0;
-        Scanner n = new Scanner(System.in);
-        Random random = new Random();
+        int next;int c1;int c2;int dX;int dY;int pTotal = 0;int dTotal = 0;
+        Scanner n = new Scanner(System.in);Random random = new Random();
         while ("y".equals(redo)) {
          dX = random.nextInt(10) + 1;
          dY = random.nextInt(10) + 1;
