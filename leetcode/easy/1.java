@@ -1,4 +1,5 @@
-class Solution {
+#include <bits/stdc++.h>
+class 1 {
     public int[] twoSum(int[] nums, int target) {
          for (int i = 0; i < nums.length; i++) { //brute force lol
             int diff = target - nums[i];

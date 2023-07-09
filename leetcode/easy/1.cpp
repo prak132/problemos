@@ -1,4 +1,5 @@
-class Solution {
+#include <bits/stdc++.h>
+class 1 {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         map<int,int> m;//ez map sol

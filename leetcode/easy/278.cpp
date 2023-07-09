@@ -1,6 +1,7 @@
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);
-class Solution {
+#include <bits/stdc++.h>
+class 278 {
 public:
     int firstBadVersion(int n) {
         int l=1,h=n;//binary search yay

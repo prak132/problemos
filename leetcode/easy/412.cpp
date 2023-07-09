@@ -1,4 +1,5 @@
-class Solution {
+#include <bits/stdc++.h>
+class 412 {
 public:
 	vector<string> fizzBuzz(int n) {
 		vector<string>ans;
