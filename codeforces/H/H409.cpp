@@ -5,7 +5,7 @@
 
 using namespace std;
 int a,b;
-//bad problem don't recomend
+//bro what is this
 signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);

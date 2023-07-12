@@ -10,7 +10,7 @@ signed main() {
         cin>>ar[i];
     }
     sort(ar,ar+n);//I did not need to search up how to sort an array trust
-    for (int j=0; j<n; j++) {
+    for (int j=0; j<n; j++){ // nahhh I was looking back at this and omg no way I found a file where I was learning cpp omg lol
         if (ar[j] != ar[j+1]) {
             c++;
         }

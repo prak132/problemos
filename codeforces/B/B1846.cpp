@@ -21,6 +21,5 @@ int main() {
         else if (check('O')) cout << "O" << endl;
         else if (check('+')) cout << "+" << endl;
         else cout << "DRAW" << endl;
-    }
-    return 0;
+    } return 0;
 }
