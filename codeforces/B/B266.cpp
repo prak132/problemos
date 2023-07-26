@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int n,t;
-    string s;
+    ios_base::sync_with_stdio(false); cin.tie(nullptr);
+    int n,t; string s;
     cin >> n >> t;
     cin >> s;
     while (t--) {
@@ -13,7 +11,6 @@ int main() {
                 s[i] = 'B';s[i-1] = 'G';++i;
             }
         }
-    }
-    cout << s << "\n";
+    } cout << s << "\n";
     return 0;
 }
