@@ -3,13 +3,13 @@ using namespace std;
 
 void solve() {
     int q; cin >> q;
-    vector<int> a;
+    vector<int> dp; // frfrfrrfrfrfr this is dp no capcpapc right awesomeparrot
     int cnt = 0;
     for (int i = 0; i < q; i++) {
         int x; cin >> x;
-        int cnt2 = cnt + (!a.empty() && a.back() > x);
-        if (cnt2 == 0 || (cnt2 == 1 && x <= a[0])) {
-            a.push_back(x); cnt = cnt2;
+        int cnt2 = cnt + (!dp.empty() && dp.back() > x);
+        if (cnt2 == 0 || (cnt2 == 1 && x <= dp[0])) {
+            dp.push_back(x); cnt = cnt2;
             cout << '1';
         } else {
             cout << '0';
