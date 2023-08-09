@@ -1,9 +1,5 @@
 /*
-<<<<<<< HEAD
-ID: rathore
-=======
 ID: rathore6
->>>>>>> 70da635 (yeye)
 TASK: friday
 LANG: C++
 */
