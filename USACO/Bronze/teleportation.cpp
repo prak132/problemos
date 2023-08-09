@@ -6,10 +6,9 @@ int main() {
 	freopen("teleport.out", "w", stdout);
 	int a, b, x, y; cin >> a >> b >> x >> y;
 	int ans = abs(a - b); //compare with teleporting and without teleporting
-	if (ans > abs(a - x) + abs(b - y)) { //print the min
+	if (ans > abs(a - x) + abs(b - y)) {
 		ans = abs(a - x) + abs(b - y);
 	} if (ans > abs(a - y) + abs(b - x)) {
 		ans = abs(a - y) + abs(b - x);
-	} 
-    cout << ans << '\n';
+	} cout << ans << '\n';
 }
