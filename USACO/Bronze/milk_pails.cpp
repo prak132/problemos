@@ -2,25 +2,19 @@
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(false);cin.tie(nullptr);
-    freopen("pails.in", "r", stdin);
-    freopen("pails.out", "w", stdout);
-    int X, Y;
-	int M;
-	cin >> X >> Y >> M;
-	int close = 0;
-	for (int i = 0; i <= M; i++) {
-		if (X * i > M) { 
-            break; //check how many we can fill in bucket 1 and check if too much
-        }
-		for (int j = 0; j <= M; j++) { // check bucket 2 now
-			int n = (X * i) + (Y * j);
-			if (n > M) { //if ever greater 
-                break; 
-            }
-			close = max(close, n);//check so when we iterate will check
+	freopen("pails.in", "r", stdin);
+	freopen("pails.out", "w", stdout);
+	ios_base::sync_with_stdio(false); cin.tie(nullptr);
+	int b1, b2, ord;
+	cin >> b1 >> b2 >> ord;
+	int ans = 0;
+	for (int f = 0; f <= ord; f++) {
+		if (b1 * f > ord) { break; }
+		for (int sec = 0; sec <= ord; sec++) {
+			int n = (b1 * f) + (b2 * sec);
+			if (n > ord) { break; }
+			ans = max(ans, n);
 		}
 	}
-    cout << close << "\n";
-    return 0;
+	cout << ans << endl;
 }

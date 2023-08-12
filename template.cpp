@@ -6,8 +6,8 @@ void solve() {
 }
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    freopen("i.in", "r", stdin);
+    freopen("o.out", "w", stdout);
     ios_base::sync_with_stdio(false);cin.tie(nullptr);
     int t; cin >> t;
     while (t--) {
