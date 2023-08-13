@@ -1,6 +1,6 @@
 .DS_Store
 a.out
-input.txt
-output.txt
+io.in
+io.out
 .vscode
 hack.cpp

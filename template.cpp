@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-
+void setIO(string name = "io") {
+	ios_base::sync_with_stdio(false);cin.tie(nullptr);
+	if (name.size()) {
+		freopen((name + ".in").c_str(), "r", stdin);
+		freopen((name + ".out").c_str(), "w", stdout);
+	}
 }
 
 int main() {
-    freopen("i.in", "r", stdin);
-    freopen("o.out", "w", stdout);
-    ios_base::sync_with_stdio(false);cin.tie(nullptr);
+    setIO();
     int t; cin >> t;
-    while (t--) {
-        solve();
-    } return 0;
+    return 0;
 }

@@ -1,4 +1,4 @@
-// ryan + prak
+// ryan + prakkhar
 
 #include <bits/stdc++.h>
 
