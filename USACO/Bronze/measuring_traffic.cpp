@@ -11,6 +11,10 @@ void setIO(string name = "") {
 
 int main() {
     setIO("io");
-    int t; cin >> t;
+	int n; cin >> n;
+	string type[100];
+	int l[200], u[200];
+	for (int i = 0; i < n; i++) {cin >> type[i] >> l[i] >> u[i];}
+	// ill finish later
     return 0;
 }
