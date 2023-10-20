@@ -1,23 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
-
 signed main() {
-    ios_base::sync_with_stdio(false);cin.tie(nullptr);
-    int n; cin >> n;
-    int arr[n];
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-    } sort(arr, arr + n);
-    int mm = 0, mt = 0;
-    int cows = n;
-    for (int i = 0; i < n; i++) {
-        int tuition = arr[i] * cows;
-        if (tuition > mm) {
-            mm = tuition;
-            mt = arr[i];
-        }
-        cows--;
-    } cout << mm << " " << mt << endl;
-    return 0;
+	int a, big=0, curr=0; cin >> a;
+	int arr[a];
+	for (int i = 0; i < a; i++) {
+		cin >> arr[i];
+	} sort(arr, arr+a);
+	int x = a;
+	for (int i = 0; i < a; i++) {
+		int money = arr[i]*x;
+		if (money > big) {curr = arr[i]; big = money;}
+		x--;
+	} cout << big << " " << curr << endl;
 }
