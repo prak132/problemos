@@ -14,15 +14,15 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> dice[i];
         }
-        sort(dice.begin(), dice.end()); // Sort the numbers in ascending order
-        int best = -1, bestCount = -1; // Initialize variables to track the best number and its count
+        sort(dice.begin(), dice.end());
+        int best = -1, bestCount = -1;
         for (int i = 0; i < n; i++) {
             int count = 1;
-            while (i + 1 < n && dice[i] == dice[i + 1]) { // Count how many times this number appears
+            while (i + 1 < n && dice[i] == dice[i + 1]) {
                 count++;
                 i++;
             }
-            if (count > bestCount) { // If this number appears more times than the current best, update the best
+            if (count > bestCount) {
                 best = dice[i];
                 bestCount = count;
             }
