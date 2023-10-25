@@ -7,4 +7,3 @@ hack.cpp
 *.dSYM
 *.env
 *.log
-[^.]*
