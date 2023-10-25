@@ -1,6 +1,10 @@
-.DS_Store
+*.DS_Store
 a.out
 io.in
 io.out
-.vscode
+*.vscode
 hack.cpp
+*.dSYM
+*.env
+*.log
+[^.]*
