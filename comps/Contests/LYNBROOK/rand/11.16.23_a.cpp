@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define f first
-#define s second
-#define ll long long
-#define endl "\n"
 
 void solve() {
-    
+    string temp,s; cin >> s; 
+    temp = s;
+    reverse(s.begin(), s.end());
+    cout << s << temp << '\n';
 }
 
 int main() {
