@@ -9,7 +9,6 @@ typedef pair<int, int> pii;
 #define se second
 #define endl '\n'
 #define io(file) freopen(file".in", "r", stdin); freopen(file".out", "w", stdout);
-#pragma GCC optimize("O3")
 const int MOD = 1e9 + 7;
 
 void solve() {
