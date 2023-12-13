@@ -1,7 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
+typedef long long ll;
+typedef vector<int> vi;
+typedef pair<int, int> pii;
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
 #define endl '\n'
+#define io(file) freopen(file".in", "r", stdin); freopen(file".out", "w", stdout);
+#pragma GCC optimize("O3")
+const int MOD = 1e9 + 7;
 
 void solve() {
     

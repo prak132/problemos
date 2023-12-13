@@ -4,7 +4,6 @@
 #pragma GCC optimize("O3")
 #pragma GCC optimize("unroll-loops")
 #pragma omp parallel for
-#pragma GCC ivdep
 
 int main() {
     std::ios_base::sync_with_stdio(false);std::cin.tie(nullptr);
