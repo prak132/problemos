@@ -5,6 +5,7 @@ using namespace std;
 int main() {
 	ios_base::sync_with_stdio(false);cin.tie(nullptr);
     float z = 1.9843, m = 12.1239123;
+    // 6.1099185943603515625
     cout << setprecision(28) << m/z << endl;
     return 0;
 }
