@@ -8,3 +8,5 @@ hack.cpp
 *.env
 *.log
 cf
+*.ans
+*.pdf
