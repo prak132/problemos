@@ -1,12 +1,8 @@
 *.DS_Store
 a.out
-io.in
-io.out
-*.vscode
-hack.cpp
 *.dSYM
 *.env
 *.log
-cf
 *.ans
 *.pdf
+*.in

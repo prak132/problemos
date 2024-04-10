@@ -1,0 +1,20 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "string": "cpp",
+        "ios": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "vector": "cpp",
+        "set": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "initializer_list": "cpp",
+        "valarray": "cpp",
+        "unordered_map": "cpp",
+        "ostream": "cpp"
+    }
+}
