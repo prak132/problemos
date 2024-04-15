@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define io(file) freopen(file".in", "r", stdin); freopen(file".out", "w", stdout);
 typedef long long ll;
 typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
@@ -8,7 +9,7 @@ typedef pair<int, int> pii;
 #define f first
 #define s second
 #define endl '\n'
-#define io(file) freopen(file".in", "r", stdin); freopen(file".out", "w", stdout);
+#define MAXN 200001
 
 void solve() {
     
@@ -16,8 +17,6 @@ void solve() {
 
 int main() {
 	ios_base::sync_with_stdio(false);cin.tie(nullptr);
-    int t=1; 
-    // cin >> t;
-    while (t--) {solve();}
+    int n; cin >> n;
     return 0;
 }

@@ -6,3 +6,4 @@ a.out
 *.ans
 *.pdf
 *.in
+node_modules
