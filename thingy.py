@@ -33,18 +33,18 @@ def rin_bot_farm():
     counter = 0
     time.sleep(0.5)
     while (keep_running):
-        actionthing(625, 727)
+        actionthing(488, 692)
         time.sleep(random.uniform(0.2, 0.5))
-        switch(335, 635)
-        actionthing(625, 727)
+        switch(180, 704)
+        actionthing(488, 692)
         time.sleep(random.uniform(0.2, 0.5))
-        switch(335, 671)
-        actionthing(625, 727)
+        switch(180, 621)
+        actionthing(488, 692)
         time.sleep(random.uniform(0.2, 0.5))
-        switch(335, 703)
-        actionthing(625, 727)
+        switch(180, 658)
+        actionthing(488, 692)
         time.sleep(random.uniform(0.2, 0.5))
-        switch(335, 600)
+        switch(180, 600)
         counter += 1
         if (counter % 100 == 0):
             time.sleep(60)

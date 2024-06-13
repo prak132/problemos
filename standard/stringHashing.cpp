@@ -30,11 +30,14 @@ signed main() {
     HashedString hs(s), hm(m);
     ll m_hash = hm.get_hash(0, m.size() - 1);
     ll cnt = 0;
+    cout << m_hash << "\n";
+    /*
     for (int i = 0; i + m.size()-1 < s.size(); i++) {
         if (hs.get_hash(i, i+m.size()-1) == m_hash) {
             cnt++;
         }
     } cout << cnt << "\n";
+    */
     return 0;
     /*
         Hash the string s and m, then compare the hash of s with the hash of m
